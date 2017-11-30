@@ -1,0 +1,9 @@
+closet number in sorted array
+last postion of target
+search a 2D Matrix
+Maximum number in Mountain Sequence
+Search in a Big Sorted Array
+Find Minimum in Rotated Sorted Array
+Find Peak Element
+First Bad Version
+Search in Rotated Sorted Array
