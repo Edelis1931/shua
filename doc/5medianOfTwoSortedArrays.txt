@@ -84,3 +84,12 @@ int partB = k - partA;
 32         return A[astart+partA-1];
 33     }
 复制代码
+
+note:
+上面这个代码findKth里的int[] A和int[] B是永远不改变的,我们只是通过修改start和end两个参数来改变我们具体的取值范围
+
+和这个solution的区别:
+这个solution是一次扔数组的一半
+http://fisherlei.blogspot.ca/2012/12/leetcode-median-of-two-sorted-arrays.html
+
+而上面那个solution的思路是一次扔k的一半,扔k的一半比较容易理解和follow
