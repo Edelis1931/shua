@@ -31,8 +31,8 @@ public:
                 if (root->left) maxDepthHelper(root->left, maxDepth, curDepth);
                 if (root->right) maxDepthHelper(root->right, maxDepth, curDepth);
             }
-        }
-        
+
         curDepth -= 1;
+        }
     }
 };
